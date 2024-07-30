@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envelope</title>
+    <link rel="stylesheet" href="/message.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelopewrapper ">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>heyyyyy babyyyyyy...</strong>
+                        <p>Happyyy firsttttt dayyyy in corporate jungle, my love! &hearts; All the veryyy best ...&#128522; I know you'll excel and make a fantastic impression with your  dedication, and charm. Embrace the new opportunities and challenges with confidence, and remember that I'm always here cheering you on. Can't wait to hear all about it when you get home &#9733;I love you more than all the stars in the sky, all the fish in the sea, and all the cheesy romantic movies ever made! 🌟❤️</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    
+    <script>
+        const envelope=document.querySelector('.envelopewrapper');
+        envelope.addEventListener('click',() => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+    <div class="bottom">
+        <div id="bottom">
+            <h2>CHUMMAA PORAPOKULA ORU MESSAGE.......... </h2>
+        </div>
+
+    </div>
+    <div class="top">
+        <div id="top">
+            <h2>I <span id="colorr">&hearts;</span> Yu more than you love morning cup of coffee!&#9749; </h2>
+        </div>
+    </div>
+</body>
+</html>
